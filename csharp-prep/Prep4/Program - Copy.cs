@@ -36,8 +36,8 @@ class Program
         foreach (double number in Numbers)
         {
             listSum =  listSum + number;
-            listLength = double.Parse(Numbers.Count());
-            listAverage = (listSum/listLength);
+            listLength = Numbers.Count();
+            listAverage = double.Parse(listSum/listLength);
             
             if (number > listLargestNumber)
             {
